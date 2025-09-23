@@ -6,5 +6,6 @@ import (
 
 // Entry Point
 func main() {
-	server.Start()
+	go server.Start()
+	server.ManageSrv()
 }
