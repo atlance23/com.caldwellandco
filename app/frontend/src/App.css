@@ -36,9 +36,47 @@
 .menuItem {
   padding: 10px;
   color: white;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .menuItem:hover {
   color: #5ce1e6;
   transition: 0.6s;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 20px 60px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../public/hero.avif");
+  background-position: center center;
+  background-size: cover;
+}
+
+.heroContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seoHeading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.displayHeading {
+  font-size: 4rem;
+  font-family: "Zen Old Mincho";
+  color: white;
+  margin: 8px;
 }
